@@ -6,9 +6,13 @@
 {% endblock %}
 {% block content %}
 <br> 
-<a href="{% url 'news:newStory' %}">Write New Story</a>
+{% if user.is_authenticated %}
+    <a href="{% url 'news:newStory' %}">Write New Story</a>
+{% else %}
+    <p>You are not logged in</p>
+{% endif %}
 
-    <h2>Latest News</h2>
+    <h2>Latest News </h2>
 
     <div id="latest-stories">
         {% if latest_stories %}
@@ -22,6 +26,7 @@
     </div>
 
     <div id="all-stories">
+   
         {% if latest_stories %}
             {% for story in all_stories %}
                 <p>{{ story.title }}</p>
