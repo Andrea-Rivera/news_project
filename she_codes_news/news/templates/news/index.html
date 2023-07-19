@@ -7,17 +7,16 @@
 {% block content %}
 <br> 
 {% if user.is_authenticated %}
-    <a href="{% url 'news:newStory' %}">Write New Story</a>
+    <a class= "notLogged" href="{% url 'news:newStory' %}">Write New Story</a>
 {% else %}
-    <p>You are not logged in</p>
+    <p class= "notLogged">You are not logged in</p>
 {% endif %}
-
+<div>
     <h2>Latest News </h2>
 
     <div id="latest-stories">
         {% if latest_stories %}
             {% for story in latest_stories %}
-                <p>{{ story.title }}</p>
                     {% include "./storyCard.html" with story=story position=forloop.counter %}
             {% endfor %}
         {% else %}
@@ -25,16 +24,17 @@
         {% endif %}
     </div>
 
+    <h2>All News </h2>
     <div id="all-stories">
-   
+ 
         {% if latest_stories %}
             {% for story in all_stories %}
-                <p>{{ story.title }}</p>
                 {% include "./storyCard.html" with story=story %}
             {% endfor %}
         {% else %}
             <p>No stories are available.</p>
         {% endif %}
     </div>
+</div>
 {% endblock %}
 
