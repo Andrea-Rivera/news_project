@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto:ital,wght@0,300;0,400;0,900;1,100&family=Tektur&display=swap');
+
 
 .story-card {
     margin: 2px;
@@ -96,6 +98,7 @@
 
 .notLogged{
     color: rgb(49, 25, 129);
+    font-family: 'Tektur', cursive;
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,4 +1,5 @@
 <!-- news/templates/news/story.html -->
+
 {% extends "base.html" %}
 {% load static %}
 {% block stylesheets %}
@@ -7,6 +8,9 @@
 
 
 {% block content %}
+<br>
+{% comment %} <a class= "notLogged" href='{% url 'news:update' %}'>Edit</a> {% endcomment %}
+{% comment %} <a class= "notLogged" href="{% url 'news:delete' %}">Delete</a> {% endcomment %}
 <div id="story-wrapper">
     <h2>{{ story.title }}</h2>
     <h4>{{ story.author }}</h4>
@@ -14,5 +18,7 @@
         <img src="{% static '/news/images/placeholder-5.jpg' %}">
         {{ story.content|linebreaks }}
     </div>
+    <br>
+   
 </div>
 {% endblock %}

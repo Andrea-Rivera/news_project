@@ -1,0 +1,17 @@
+
+
+{% extends "base.html"%}
+
+{% block content %}
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <h2>Delete Story</h2>
+    <p>Are you sure you want to delete this story?</p>
+    <button type="submit">Yes, Delete</button>
+    <a class="notLogged" href="{% url 'news:index' %}">Cancel</a>
+</form>
+
+
+{% endblock %}
