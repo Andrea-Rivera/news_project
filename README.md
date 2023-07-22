@@ -17,15 +17,25 @@ Give a brief description of your project here. What is it for, how do you useit?
     
 ## Project Features
 - [ ] Order stories by date
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )- [ ] Styled "new story" form![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] Story images![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )- [ ] Log-in/log-out![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [ ] Styled "new story" form![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] "Account view" page![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )- [ ] "Create Account" page![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [ ] Story images![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] View stories by author![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )- [ ] "Log-in" button only visible when no user is logged in/"Log-out" buttononly visible when a user *is* logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [ ] Log-in/log-out![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] "Create Story" functionality only available when user is logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )## Additional Features:
+- [ ] "Account view" page![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+
+- [ ] "Create Account" page![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+
+- [ ] View stories by author![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+
+- [ ] "Log-in" button only visible when no user is logged in/"Log-out" buttononly visible when a user *is* logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+
+- [ ] "Create Story" functionality only available when user is logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+
+## Additional Features:
 
 - [ ] Add categories to the stories and allow the user to search for stories bycategory.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
