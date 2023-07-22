@@ -1,7 +1,7 @@
 # Andrea Rivera- She Codes News Project
 
 ## About This Project
-Give a brief description of your project here. What is it for, how do you useit? 
+I did this project to practice python and Django concepts to build different features. This is a News Application where different users can post news. There is an authentication system (Create User, Log in and Log Out). A Profile View where users can see their information. The users can see other news created by other authors and can use a filter to see their post. The user can also update or delete news that they have created.
 
 ## How To Run This Code
 

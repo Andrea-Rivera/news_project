@@ -9,8 +9,20 @@
 
 {% block content %}
 <br>
-<a class= "link_decoration" href='{% url 'news:update' story.id %}' aria-disabled="true" >Edit</a>
-<a class= "link_decoration" href='{% url 'news:delete' story.id %}'>Delete</a>
+{% comment %} <a class= "link_decoration" href='{% url 'news:update' story.id %}'  >Edit</a>
+<button type="button" disabled>Click me!</button>
+<a class= "link_decoration" href='{% url 'news:delete' story.id %}'>Delete</a> {% endcomment %}
+
+
+{% if author_id != "0" %} 
+    <a class="btn" href='{% url 'news:update' story.id %}'  >Edit</a>
+    <a class="btn"  href='{% url 'news:delete' story.id %}'>Delete</a>
+
+{% else %} 
+<a class="btn"  >Edit</a>
+    <button type="button" disabled>Delete</button>
+{% endif %}
+
 <div id="story-wrapper">
     <h2>{{ story.title }}</h2>
     <h4>{{ story.author }}</h4>
