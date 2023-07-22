@@ -9,8 +9,8 @@
 
 {% block content %}
 <br>
-<a class= "notLogged" href='{% url 'news:update' story.id %}' >Edit</a>
-<a class= "notLogged" href='{% url 'news:delete' story.id %}'>Delete</a>
+<a class= "link_decoration" href='{% url 'news:update' story.id %}' aria-disabled="true" >Edit</a>
+<a class= "link_decoration" href='{% url 'news:delete' story.id %}'>Delete</a>
 <div id="story-wrapper">
     <h2>{{ story.title }}</h2>
     <h4>{{ story.author }}</h4>

@@ -99,6 +99,7 @@
 .link_decoration{
     color: rgb(49, 25, 129);
     font-family: 'Tektur', cursive;
+   
 }
 
 @media only screen and (max-width: 600px) {
