@@ -9,7 +9,10 @@ Give a brief description of your project here. What is it for, how do you useit?
 2. In the terminal, change directory into the repo you cloned using the command `cd news_project` .
 3. Set up a virtual environment using the command `python -m venv venv`.
 4. Activate the environment. if you use Windows with the command `venv/Scripts/activate`.  If you are in a Mac `source venv/bin/activate`
-5. Migrate the database
+6. Open the folder in VS code.
+7. Change directories so that you are in the same location as your manage.py file. Use the command `cd she_codes_news` 
+8. Migrate the database using the command `python manage.py migrate`
+9. Finally, run the server with the following command: `python manage.py runserver`
 
     
 ## Database Schema
