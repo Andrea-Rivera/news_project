@@ -1,8 +1,13 @@
-# {{ Andrea Rivera }} - She Codes News Project
+# Andrea Rivera- She Codes News Project
 
 ## About This Project{{ Give a brief description of your project here. What is it for, how do you useit? }}
 
 ## How To Run This Code{{
+1. Clone the repo to your local machine"
+2. In the terminal, change directory into the repo you cloned using the command `cd news_project` .
+3. Set up a virtual environment using the command `python -m venv venv`.
+4. Activate the environment. if you use Windows with the command `venv/Scripts/activate`.  If you are in a Mac `source venv/bin/activate`
+5. Migrate the database
 Give a quick step-by-step guide on how to download and run your codebase.
     
 It's ok to assume the reader is another developer here, so don't feel like youhave to explain what a virtual environment is, etc.Give directions like "clone the repo to your local machine", "create a virtualenvironment", "migrate the database", etc.
