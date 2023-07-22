@@ -1,5 +1,3 @@
-
-
 {% extends "base.html"%}
 
 {% block content %}
@@ -10,7 +8,7 @@
     <h2>Delete Story</h2>
     <p>Are you sure you want to delete this story?</p>
     <button type="submit">Yes, Delete</button>
-    <a class="notLogged" href="{% url 'news:index' %}">Cancel</a>
+    <a class="link_decoration" href="{% url 'news:index' %}">Cancel</a>
 </form>
 
 

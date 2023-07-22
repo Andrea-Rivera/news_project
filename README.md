@@ -26,10 +26,10 @@ When you need to specify terminal commands, you can surround them withbackticks,
 
 - [ ] Add categories to the stories and allow the user to search for stories bycategory.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] Add the ability to update and delete stories (consider permissions - whoshould be allowed to update or and/or delete stories).![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] Add the ability to update and delete stories (consider permissions - whoshould be allowed to update or and/or delete stories).![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
 - [ ] Add the ability to “favourite” stories and see a page with your favouritestories.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
 - [ ] Our form for creating stories requires you to add the publication date,update this to automatically save the publication date as the day thestory was first published (maybe you could then add a field to showwhen the story was updated).![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] Gracefully handle the error where someone tries to create a new story whenthey are not logged in.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] Gracefully handle the error where someone tries to create a new story whenthey are not logged in.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )

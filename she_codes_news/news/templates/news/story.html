@@ -9,8 +9,8 @@
 
 {% block content %}
 <br>
-{% comment %} <a class= "notLogged" href='{% url 'news:update' %}'>Edit</a> {% endcomment %}
-{% comment %} <a class= "notLogged" href="{% url 'news:delete' %}">Delete</a> {% endcomment %}
+<a class= "notLogged" href='{% url 'news:update' story.id %}' >Edit</a>
+<a class= "notLogged" href='{% url 'news:delete' story.id %}'>Delete</a>
 <div id="story-wrapper">
     <h2>{{ story.title }}</h2>
     <h4>{{ story.author }}</h4>

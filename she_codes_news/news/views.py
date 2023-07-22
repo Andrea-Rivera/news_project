@@ -2,6 +2,7 @@ from django.views import generic
 from django.urls import reverse_lazy
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from .models import NewsStory
+from users.models import CustomUser
 from .forms import StoryForm
 
 
@@ -12,12 +13,28 @@ class IndexView(generic.ListView):
     def get_queryset(self):
         '''Return all news stories.'''
         NewsStory.objects.all().order_by("pub_date")
-        return NewsStory.objects.all().order_by("-pub_date").filter(author = 1)
+        author_id= self.request.GET.get('author', "0")
+        print(author_id == "0")
+        if author_id != "0":
+            return NewsStory.objects.all().order_by("-pub_date").filter(author = author_id)
+        else:
+            return NewsStory.objects.all().order_by("-pub_date")
+
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['latest_stories'] = NewsStory.objects.all().order_by("-pub_date")
+        # context['latest_stories'] = NewsStory.objects.all().order_by("-pub_date")
+        author_id = self.request.GET.get('author', "0")
+        if author_id != "0":
+            context['latest_stories'] = NewsStory.objects.all().order_by("-pub_date").filter(author = author_id)
+        else:
+            context['latest_stories'] = NewsStory.objects.all().order_by("-pub_date")
+            
         context['latest_stories'] = context['latest_stories'][:4]
+        context['authors'] = CustomUser.objects.all()
+        context['author_id'] = int(author_id)
+        
+  
         return context
     
 class StoryView(generic.DetailView):

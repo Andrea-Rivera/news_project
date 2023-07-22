@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto:ital,wght@0,300;0,400;0,900;1,100&family=Tektur&display=swap');
+
+
+.link_users{
+    color: rgb(49, 25, 129);
+    font-family: 'Tektur', cursive;
+}
+
+.btn-info{
+    background-color: rgb(186, 132, 236);
+    color: white;
+}

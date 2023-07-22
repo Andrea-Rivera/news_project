@@ -4,14 +4,27 @@
 {% block stylesheets %}
 <link rel="stylesheet" type="text/css" href="{% static 'news/styles.css'%}">
 {% endblock %}
+
 {% block content %}
 <br> 
 {% if user.is_authenticated %}
-    <a class= "notLogged" href="{% url 'news:newStory' %}">Write New Story</a>
+    <a class= "link_decoration" href="{% url 'news:newStory' %}">Write New Story</a>
 {% else %}
-    <p class= "notLogged">You are not logged in</p>
+<a class= "link_decoration" href="{% url 'login' %}">Write New Story</a>
 {% endif %}
 <div>
+    <form>
+        <select name="author" >
+            {% if authors %}
+                <option value=0>All Authors</option>
+                {% for author in authors %}
+                    <option value={{author.id}} {% if author.id == author_id %} selected {% endif %}>{{author.username}}</option>
+                {% endfor %}
+                
+            {% endif %}
+            <input type="submit"  >
+        </select>
+    </form>
     <h2>Latest News </h2>
 
     <div id="latest-stories">
