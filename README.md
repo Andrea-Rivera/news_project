@@ -4,6 +4,7 @@
 {{ Give a brief description of your project here. What is it for, how do you useit? }}
 
 ## How To Run This Code
+{{   
 1. Clone the repo to your local machine"
 2. In the terminal, change directory into the repo you cloned using the command `cd news_project` .
 3. Set up a virtual environment using the command `python -m venv venv`.
