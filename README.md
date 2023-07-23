@@ -16,7 +16,7 @@ This project was done to practice python and Django concepts by building differe
 
     
 ## Database Schema
-![ {{ My ERD }} ]( {{ ./relative_path_to_your_entity_relationship_diagram }} )
+![My ERD](./news.drawio )
     
 ## Project Features
 - [x] Order stories by date
