@@ -19,33 +19,33 @@ This project was done to practice python and Django concepts by building differe
 ![ {{ My ERD }} ]( {{ ./relative_path_to_your_entity_relationship_diagram }} )
     
 ## Project Features
-- [ ] Order stories by date
+- [x] Order stories by date
 ![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] Styled "new story" form![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] Styled "new story" form![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] Story images![ {{ Description of image }} ]( {{ she_codes_news/news/static/news/images/order_by_date.png   }} )
+- [x] Story images![ {{ Description of image }} ]( {{ she_codes_news/news/static/news/images/order_by_date.png   }} )
 
-- [ ] Log-in/log-out![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] Log-in/log-out![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] "Account view" page![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] "Account view" page![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] "Create Account" page![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] "Create Account" page![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] View stories by author![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] View stories by author![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] "Log-in" button only visible when no user is logged in/"Log-out" buttononly visible when a user *is* logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] "Log-in" button only visible when no user is logged in/"Log-out" buttononly visible when a user *is* logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] "Create Story" functionality only available when user is logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] "Create Story" functionality only available when user is logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
 ## Additional Features:
 
-- [ ] Add categories to the stories and allow the user to search for stories bycategory.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] Add categories to the stories and allow the user to search for stories bycategory.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
 - [x] Add the ability to update and delete stories (consider permissions - whoshould be allowed to update or and/or delete stories).![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] Add the ability to “favourite” stories and see a page with your favouritestories.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] Add the ability to “favourite” stories and see a page with your favouritestories.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] Our form for creating stories requires you to add the publication date,update this to automatically save the publication date as the day thestory was first published (maybe you could then add a field to showwhen the story was updated).![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] Our form for creating stories requires you to add the publication date,update this to automatically save the publication date as the day thestory was first published (maybe you could then add a field to showwhen the story was updated).![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
 - [x] Gracefully handle the error where someone tries to create a new story whenthey are not logged in.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
