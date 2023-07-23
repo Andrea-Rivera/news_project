@@ -42,12 +42,10 @@ This project was done to practice python and Django concepts by building differe
 
 ## Additional Features:
 
-- [x] Add categories to the stories and allow the user to search for stories bycategory.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] Add the ability to update and delete stories (consider permissions - who should be allowed to update or and/or delete stories)![Adding delete and edit buttons to author's story](./she_codes_news/news/static/news/images/edit-delete.png)
 
-- [x] Add the ability to update and delete stories (consider permissions - whoshould be allowed to update or and/or delete stories).![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- Edit the story only for the same author of that story. The author must Log-In ![Edit the story only for the same author of that story](./she_codes_news/news/static/news/images/edit.png)
 
-- [x] Add the ability to “favourite” stories and see a page with your favouritestories.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- Delete the story only for the same author of that story. There is a cancel button that will route to the home page![Delete the story only for the same author of that story](./she_codes_news/news/static/news/images/delete2.png)
 
-- [x] Our form for creating stories requires you to add the publication date,update this to automatically save the publication date as the day thestory was first published (maybe you could then add a field to showwhen the story was updated).![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
-
-- [x] Gracefully handle the error where someone tries to create a new story whenthey are not logged in.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] Gracefully handle the error where someone tries to create a new story when they are not logged in.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
