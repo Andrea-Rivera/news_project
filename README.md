@@ -16,7 +16,7 @@ This project was done to practice python and Django concepts by building differe
 
     
 ## Database Schema
-![My ERD](./news.drawio )
+![My ERD](./she_codes_news/news/static/news/images/ERD_diagram.png)
     
 ## Project Features
 - [x] Order stories by date
