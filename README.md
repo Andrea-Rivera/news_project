@@ -26,7 +26,7 @@ This project was done to practice python and Django concepts by building differe
 
 - [x] Story images![ Adding a field to the news stories for an image URL](./she_codes_news/news/static/news/images/news_image.png)
 
-- [x] Log-in/log-out![ Adding Log In and Log out features ](./she_codes_news/news/static/news/images/login.png )
+- [x] Log-in/log-out![ Adding Log In and Log out features ](./she_codes_news/news/static/news/images/login4.png )
 
 - [x] "Account view" page![View user's account information](./she_codes_news/news/static/news/images/account_view.png)
 
