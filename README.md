@@ -1,7 +1,7 @@
 # Andrea Rivera- She Codes News Project
 
 ## About This Project
-I did this project to practice python and Django concepts to build different features. This is a News Application where different users can post news. There is an authentication system (Create User, Log in and Log Out). A Profile View where users can see their information. The users can see other news created by other authors and can use a filter to see their post. The user can also update or delete news that they have created.
+This project was done to practice python and Django concepts by building different features. This is a News Application where different users can post news. There is an authentication system (Create User, Log in and Log Out). A Profile View where users can see their information. The users can see other news created by other authors and can use a filter to see their post. The user can also update or delete news that they have created.
 
 ## How To Run This Code
 
@@ -24,7 +24,7 @@ I did this project to practice python and Django concepts to build different fea
 
 - [ ] Styled "new story" form![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
-- [ ] Story images![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [ ] Story images![ {{ Description of image }} ]( {{ she_codes_news/news/static/news/images/order_by_date.png   }} )
 
 - [ ] Log-in/log-out![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
