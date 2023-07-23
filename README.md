@@ -20,11 +20,11 @@ This project was done to practice python and Django concepts by building differe
     
 ## Project Features
 - [x] Order stories by date
-![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+![Stories ordered by date in descending order.](./she_codes_news/news/static/news/images/order_by_date.png)
 
-- [x] Styled "new story" form![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] Styled "new story" form![ Adding styles to make the stories responsive ](./she_codes_news/news/static/news/images/news_style.png )
 
-- [x] Story images![ {{ Description of image }} ]( {{ she_codes_news/news/static/news/images/order_by_date.png   }} )
+- [x] Story images![ Adding a field to the news stories for an image URL](./she_codes_news/news/static/news/images/news_image.png)
 
 - [x] Log-in/log-out![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
