@@ -32,9 +32,9 @@ This project was done to practice python and Django concepts by building differe
 
 - [x] "Create Account" page![Create account](./she_codes_news/news/static/news/images/create_account.png)
 
-- [x] View stories by author: Users can use dropdown menu to view stories by a particular author ![users can use dropdown menu to view stories by a particular author ](./she_codes_news/news/static/news/images/search author.png )
+- [x] "View stories by author" where users can use dropdown menu to view stories by a particular author![users can use dropdown menu to view stories by a particular author ](./she_codes_news/news/static/news/images/search author.png )
 
-- [x] "Log-in" button only visible when no user is logged in/"Log-out" buttononly visible when a user *is* logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] "Log-in" button only visible when no user is logged in/"Log-out" button only visible when a user *is* logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
 - [x] "Create Story" functionality only available when user is logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
