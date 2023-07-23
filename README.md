@@ -48,4 +48,6 @@ This project was done to practice python and Django concepts by building differe
 
 - Delete the story only for the same author of that story. There is a cancel button that will route to the home page![Delete the story only for the same author of that story](./she_codes_news/news/static/news/images/delete2.png)
 
-- [x] Gracefully handle the error where someone tries to create a new story when they are not logged in.![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] Gracefully handle the error where someone tries to create a new story when they are not logged in. I create a link that will redirect the user to the login page![ Link to route to the login page ]( ./she_codes_news/news/static/news/images/login_story.png )
+
+( ./she_codes_news/news/static/news/images/login4.png )
