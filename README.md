@@ -26,13 +26,13 @@ This project was done to practice python and Django concepts by building differe
 
 - [x] Story images![ Adding a field to the news stories for an image URL](./she_codes_news/news/static/news/images/news_image.png)
 
-- [x] Log-in/log-out![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] Log-in/log-out![ {{ Adding Log In and Log out features}} ](./she_codes_news/news/static/news/images/login.png )
 
-- [x] "Account view" page![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] "Account view" page![View user's account information](./she_codes_news/news/static/news/images/account_view.png)
 
-- [x] "Create Account" page![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] "Create Account" page![Create account](./she_codes_news/news/static/news/images/create_account.png)
 
-- [x] View stories by author![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] View stories by author: Users can use dropdown menu to view stories by a particular author ![users can use dropdown menu to view stories by a particular author ](./she_codes_news/news/static/news/images/search author.png )
 
 - [x] "Log-in" button only visible when no user is logged in/"Log-out" buttononly visible when a user *is* logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
 
