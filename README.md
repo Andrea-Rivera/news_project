@@ -36,9 +36,11 @@ This project was done to practice python and Django concepts by building differe
 
 - [x] "View stories by author" Users can use dropdown menu to view stories by a particular author![{{users can use dropdown menu to view stories by a particular author}}](./she_codes_news/news/static/news/images/search_author.png)
 
-- [x] "Log-in" button only visible when no user is logged in/"Log-out" button only visible when a user *is* logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- [x] "Log-in" button only visible when no user is logged in[ Log-In button](./she_codes_news/news/static/news/images/login3.png)
 
-- [x] "Create Story" functionality only available when user is logged in![ {{ Description of image }} ]( {{ ./relative_path_to_image_file }} )
+- "Log-out" button only visible when a user *is* logged in![ Log-out button](./she_codes_news/news/static/news/images/logout.png)
+
+- [x] "Create Story" functionality only available when user is logged in![write a story only when the user is log-in ](./she_codes_news/news/static/news/images/write_story.png)
 
 ## Additional Features:
 
