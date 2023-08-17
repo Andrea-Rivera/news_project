@@ -5,7 +5,7 @@ This project was done to practice python and Django concepts by building differe
 
 ## How To Run This Code
 
-1. Clone the repo to your local machine"
+1. Clone the repo to your local machine
 2. In the terminal, change directory into the repo you cloned using the command `cd news_project` .
 3. Set up a virtual environment using the command `python -m venv venv`.
 4. Activate the environment. if you use Windows with the command `venv/Scripts/activate`.  If you are in a Mac `source venv/bin/activate`

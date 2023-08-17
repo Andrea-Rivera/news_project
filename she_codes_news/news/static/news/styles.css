@@ -11,8 +11,9 @@
 
 .story-card img {
     width: 100%;
-    height: 200px;
-    object-fit:fill;
+    max-height: 200px;
+  object-fit: cover; 
+  border-radius: 4px; 
 }
 
 #latest-stories {
@@ -22,6 +23,8 @@
     gap: 1px 1px;
     grid-template-areas: "left-1 right-1" "left-1 right-2" "left-1 right-3";
     margin: 10px 0;
+
+  
 }
 
 #story-card-1 {
@@ -117,7 +120,7 @@
 @media only screen and (max-width: 600px) {
 
     #story-card-1 {
-        grid-area: right-1;
+        flex: 1; /* Make each story card take equal space in the container */
         border-style: groove;
     
     }
@@ -140,7 +143,8 @@
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
-        margin:10px 0;
+        flex: 1; /* Make each story card take equal space in the container */
+        border-style: groove;
     }
 
 

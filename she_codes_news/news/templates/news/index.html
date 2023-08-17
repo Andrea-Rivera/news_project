@@ -10,7 +10,7 @@
 {% if user.is_authenticated %}
     <a class= "link_decoration" href="{% url 'news:newStory' %}">Write New Story</a>
 {% else %}
-<a class= "link_decoration" href="{% url 'login' %}">To create stories, please Log In</a>
+    <a class= "link_decoration" href="{% url 'login' %}">To create stories, please Log In</a>
 {% endif %}
 
 <div>
@@ -20,7 +20,12 @@
             {% if authors %}
                 <option value=0>All Authors</option>
                 {% for author in authors %}
-                    <option value={{author.id}} {% if author.id == author_id %} selected {% endif %}>{{author.username}}</option>
+                    <option value={{author.id}} 
+                    {% if author.id == author_id %} 
+                        selected 
+                    {% endif %}>
+                    {{author.username}}
+                </option>
                 {% endfor %}
                 
             {% endif %}
